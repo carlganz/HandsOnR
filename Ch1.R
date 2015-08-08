@@ -7,7 +7,7 @@ roll<-function() {
 }
 
 roll2<-function(bones=6) {
-  die<-eval(parse(text=paste("1:",bones)))
+  die<-eval(parse(text=paste0("1:",bones)))
   dice<-sample(die,size=2,replace=T)
   return(sum(dice))
 }
