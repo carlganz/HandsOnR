@@ -1,0 +1,18 @@
+{
+    "contents" : "deal<-function(cards){\n  return(cards[1,])\n}\nshuffle<-function(cards) {\n  random<-sample(1:52,size=52)\n  cards[random,]\n}\n\naltdeal<-function(cards) {\n  return(cards[sample(1:52,size=52),][1,])\n}",
+    "created" : 1439139740117.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2668515673",
+    "id" : "E894F502",
+    "lastKnownWriteTime" : 1439143103,
+    "path" : "//carlpc/Users/Carl/HandsOnR/Ch4.R",
+    "project_path" : "Ch4.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
