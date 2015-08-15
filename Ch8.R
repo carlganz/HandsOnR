@@ -1,5 +1,5 @@
 get_symbols<-function() {
-  wheel<-c("DD","&","BBB","BB","B","C","0")
+  wheel<-c("DD","7","BBB","BB","B","C","0")
   sample(wheel,size=3,replace=T,
          prob=c(.03,.03,.06,.1,.25,.01,.52))
 }
